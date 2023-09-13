@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+<style>
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+    .box {
+        width: 500px;
+        margin: 0 auto;
+        border: 10px solid gray;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    header {
+        border: 10px solid green;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    nav {
+        border: 10px solid pink;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .box-1{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    Article{
+        width: 58%;
+        border: 10px solid blue;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    Article header{
+        margin-bottom: 120px;
+    }
+    Section{
+        border: 10px solid pink;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    footer{
+        border: 10px solid yellow;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .div{
+        width: 38%;
+        border: 10px solid rgba(255, 187, 0, 0.678);
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    Aside{
+        border: 10px solid rgba(0, 195, 255, 0.678);
+        height: 180px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    
+</style>
+
 <body>
-    <h1>salom</h1>
+    <div class="container">
+        <div class="box">
+            <header>
+                <p>header</p>
+            </header>
+            <nav>
+                <p>nav</p>
+            </nav>
+            <div class="box-1">
+                <Article>
+                    <p>Article</p>
+                    <header>
+                        <p>header</p>
+                    </header>
+                    <Section>
+                        <p>Section</p>
+                    </Section>
+                    <Section>
+                        <p>Section</p>
+                    </Section>
+                    <Footer>
+                        <p>footer</p>
+                    </Footer>
+                </Article>
+                <div class="div">
+                    <p>Div</p>
+                    <Aside>
+                        <p>Aside</p>
+                    </Aside>
+                    <Aside>
+                        <p>Aside</p>
+                    </Aside>
+                </div>
+            </div>
+            <Footer>
+                <p>Footer</p>
+            </Footer>
+        </div>
+    </div>
 </body>
+
 </html>
